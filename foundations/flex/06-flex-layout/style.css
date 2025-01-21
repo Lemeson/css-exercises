@@ -5,6 +5,39 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.header ul {
+  display: flex;
+  flex:1;
+
+}
+
+.header a {
+  display: block;
+  padding: 10px 10px 10px 0px;
+}
+
+.right-link {
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 8px;
 }
 
 img {
