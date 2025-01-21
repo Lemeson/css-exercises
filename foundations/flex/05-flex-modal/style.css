@@ -23,21 +23,34 @@ body {
   display: flex;
 }
 
-.head {
+.modalContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.modalHeader {
+  display: flex;
+}
+
+.modalButtons {
   display: flex;
 }
 
 .icon {
+  flex: auto;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 42px;
-  height: 42px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  padding: 15px;
+  max-width: 50px;
 }
 
 .close-button {
