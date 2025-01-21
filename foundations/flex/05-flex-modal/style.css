@@ -21,6 +21,7 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 15px 15px 7px 15px;
 }
 
 .modalContent {
@@ -30,10 +31,15 @@ body {
 
 .modalHeader {
   display: flex;
+  padding: 8px 8px 8px 0px;
+  font-weight: 1000;
+  align-items: center;
 }
 
 .modalButtons {
   display: flex;
+  gap: 8px;
+  padding: 15px 0px;
 }
 
 .icon {
@@ -42,22 +48,21 @@ body {
   font-size: 26px;
   font-weight: 700;
   background: lavender;
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 7px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
-  padding: 15px;
-  max-width: 50px;
+  margin: 10px 10px 0px 1px;
+  padding: 20px
 }
 
 .close-button {
   background: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 1000;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -79,10 +84,12 @@ button.continue {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  font-weight: 600;
 }
 
 button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+  font-weight: 600;
 }
