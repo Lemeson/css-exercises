@@ -12,6 +12,7 @@ body {
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
+  font-size: small;
 }
 
 .header {
@@ -22,22 +23,31 @@ body {
 
 .header ul {
   display: flex;
-  flex:1;
-
+  flex: 0 1 auto;
 }
 
 .header a {
   display: block;
-  padding: 10px 10px 10px 0px;
+  padding: 0px 10px 10px 0px;
+  color: black;
+  text-decoration: none;
 }
 
-.right-link {
+.right-links {
   margin-left: auto;
 }
 
 ul {
   list-style-type: none;
-  padding: 8px;
+  padding: 0px 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 10px;
 }
 
 img {
@@ -49,6 +59,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
 }
 
 input {
@@ -56,4 +67,24 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  height: 35px;
+  background-color: rgb(233, 233, 233);
+}
+
+.footer ul {
+  display: flex;
+  flex: 0 1 auto;
+  align-items: center;
+}
+
+.footer a {
+  padding: 0px 10px 0px 0px;
+  color: rgb(94, 94, 94);
+  font-size: small;
+  text-decoration: none;
 }
